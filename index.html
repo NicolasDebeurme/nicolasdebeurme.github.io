@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Portfolio | Nicolas Debeurme</title>
@@ -11,358 +6,201 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			iframe.video {
+				width: 100%;
+				aspect-ratio: 16 / 9;
+				border: none;
+				border-radius: 6px;
+				margin-top: 0.5rem;
+			}
+			article ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+			article ul li {
+				margin-bottom: 2rem;
+			}
+			article ul li h4 {
+				margin-bottom: 0.3rem;
+			}
+			article ul li p.proj-desc {
+				font-size: 0.85rem;
+				color: rgba(255,255,255,0.6);
+				margin: 0 0 0.7rem;
+				line-height: 1.5;
+			}
+			article h3.major {
+				margin-top: 1.8rem;
+			}
+			.linkedin-link {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				background: #0A66C2;
+				color: #fff !important;
+				text-decoration: none;
+				border-radius: 6px;
+				padding: 0.45rem 0.9rem;
+				font-size: 0.8rem;
+				font-weight: 600;
+				transition: background 0.2s, transform 0.15s;
+			}
+			.linkedin-link:hover {
+				background: #0958a8;
+				transform: translateY(-1px);
+				color: #fff !important;
+			}
+			.linkedin-link svg {
+				width: 14px;
+				height: 14px;
+				fill: white;
+				flex-shrink: 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="fas fa-desktop"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Nicolas Debeurme</h1>
-								<p>Bonjour, je suis Nicolas Debeurme, developeur logiciel et Jeux-Video. Ce site est une vitrine de mes projets et de mes compétences</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#cv">CV</a></li>
-								<li><a href="#work">Portfolio</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- cv -->
-							<article id="cv">
-								<h2 class="major">CV</h2>
-								<span class="image main"><img src="images/cv.png" alt="" /></span>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Portfolio</h2>					
-									<h3 class="major">Unity projects</h3>
-									<ul>
-										<li>
-											<h4><a href="https://github.com/NicolasDebeurme/EnameGame">Ename Game</a></h4>
-											<iframe src="https://www.youtube.com/embed/Ct7XOFrSv4I" title="Ename Game Niantic Lightship" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-										</li>
-										<li>
-											<h4><a href="https://github.com/NicolasDebeurme/MarioFootball">Mario Football</a></h4>
-											<iframe src="https://www.youtube.com/embed/L9o-mK04RoA" title="MarioFootball" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-										</li>
-										<li>
-											<h4><a href="https://github.com/NicolasDebeurme/KnightFeever">Knight Feever</a></h4>
-											<iframe  src="https://www.youtube.com/embed/UO6mt4qFAGw" title="KnightFeever" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-										</li>
-									</ul>
-									<h3 class="major">Mobile app projects</h3>
-									<ul>
-										<li>
-											<h4><a href="https://github.com/NicolasDebeurme/junews">Junews</a></h4>
-											<iframe src="https://www.youtube.com/embed/6ZiNM8a0xuM" title="Junews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>										
-										</li>	
-										<li>
-											<h4><a href="https://github.com/NicolasDebeurme/WordFinder">Word Finder</a></h4>
-											<iframe src="https://www.youtube.com/embed/Ry4CINCUK68" title="WordFinder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>										</li>
-									</ul>
-							</article>
-
-							<style>
-								iframe {
-									width: 100%;
-									aspect-ratio: 16 / 9;
-								}
-							</style>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<ul>
-									<li>
-										<a href="mailto:nicolas.debeurme.2700@gmail.com"><h4>nicolas.debeurme.2700@gmail.com</h4></a>
-									</li>	
-									<li>
-										<a href="tel:+33680513330"><h4>06.80.51.33.30</h4></a>
-									</li>	
-								</ul>
-								<ul class="icons">
-									<li><a href="https://github.com/NicolasDebeurme" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									<li><a href="https://www.linkedin.com/in/nicolas-debeurme-823b13196/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
-								</ul>
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-					while (!deck.isInOrder()) {
-						print 'Iteration ' + i;
-						deck.shuffle();
-						i++;
-					}
-
-					print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
+			<!-- Header -->
+			<header id="header">
+				<div class="logo">
+					<span class="fas fa-desktop"></span>
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h1>Nicolas Debeurme</h1>
+						<p>Bonjour, je suis Nicolas Debeurme, ingénieur logiciel spécialisé en développement Unity & XR.<br>
+						Ce site est une vitrine de mes projets et de mes compétences.</p>
 					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#cv">CV</a></li>
+						<li><a href="#projects">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://github.com/NicolasDebeurme" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/nicolas-debeurme-823b13196/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
-						</ul>
-					</footer>
+			<div id="main">
+
+				<!-- ── CV ── -->
+				<article id="cv">
+					<h2 class="major">CV</h2>
+					<embed src= "CV_Nicolas_Debeurme.pdf#toolbar=1&navpanes=0&scrollbar=0&view=FitH" width=800 height=1000 type='application/pdf'/>
+				</article>
+
+				<!-- ── TOUS LES PROJETS ── -->
+				<article id="projects">
+					<h2 class="major">Portfolio</h2>
+
+					<!-- PROJETS PROFESSIONNELS -->
+					<h3 class="major">Projets professionnels</h3>
+					<p style="color:rgba(255,255,255,0.5); font-size:0.82rem; margin: -0.5rem 0 1.2rem;">Réalisés chez <strong>Immersiv.io</strong></p>
+					<ul>
+
+						<li>
+							<h4>FIFA Club World Cup 2025 — Application VR Quest</h4>
+							<p class="proj-desc">Application développée sur Meta Quest pour suivre la compétition FIFA Club World Cup 2025 en réalité virtuelle. Projet dont j'ai assuré une grande partie du développement.</p>
+							<a class="linkedin-link" href="https://www.linkedin.com/posts/shawnsgrover_the-fifa-club-world-cup-2025-has-officially-ugcPost-7341309470930608129-dKim" target="_blank" rel="noopener">
+								<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+								Voir le post LinkedIn
+							</a>
+						</li>
+
+						<li>
+							<h4>PSG Ligue 1 Fan Experience — Application AndroidXR (Samsung Galaxy XR)</h4>
+							<p class="proj-desc">Application de suivi de la saison du PSG en Ligue 1 sur Samsung Galaxy XR, l'une des premières apps AndroidXR au monde. J'ai défriche la plateforme dès son lancement et participé au bootcamp Google à Londres pour le lancement officiel d'AndroidXR.</p>
+							<a class="linkedin-link" href="https://www.linkedin.com/posts/immersiv-io_were-proud-to-redefine-the-fan-experience-activity-7439313297625075712-2pH9" target="_blank" rel="noopener">
+								<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+								Voir le post LinkedIn
+							</a>
+						</li>
+
+						<li>
+							<h4>US Open — Live Match Viewer (iOS, Android & WebGL)</h4>
+							<p class="proj-desc">Application disponible sur mobile et WebGL via l'app et le site officiel de l'US Open, permettant de suivre tous les matchs du tournoi en immersif.</p>
+							<iframe class="video" src="https://www.youtube.com/embed/vw4_D2lEo-U" title="US Open Immersiv.io" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+
+					</ul>
+
+					<!-- PROJETS ACADÉMIQUES -->
+					<h3 class="major">Projets académiques</h3>
+					<ul>
+
+						<li>
+							<h4><a href="https://github.com/NicolasDebeurme/EnameGame">Ename Game</a></h4>
+							<p class="proj-desc">Jeu en réalité augmentée géolocalisée développé avec Unity et le SDK Niantic Lightship.</p>
+							<iframe class="video" src="https://www.youtube.com/embed/Ct7XOFrSv4I" title="Ename Game" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+
+						<li>
+							<h4><a href="https://github.com/NicolasDebeurme/MarioFootball">Mario Football</a></h4>
+							<p class="proj-desc">Jeu de football arcade en 3D inspiré de Mario, développé sur Unity.</p>
+							<iframe class="video" src="https://www.youtube.com/embed/L9o-mK04RoA" title="MarioFootball" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+
+						<li>
+							<h4><a href="https://github.com/NicolasDebeurme/KnightFeever">Knight Feever</a></h4>
+							<p class="proj-desc">Jeu d'action multijoueur développé sur Unity.</p>
+							<iframe class="video" src="https://www.youtube.com/embed/UO6mt4qFAGw" title="KnightFeever" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+
+						<li>
+							<h4><a href="https://github.com/NicolasDebeurme/junews">Junews</a></h4>
+							<p class="proj-desc">Application mobile d'agrégation de news développée en Flutter.</p>
+							<iframe class="video" src="https://www.youtube.com/embed/6ZiNM8a0xuM" title="Junews" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+
+						<li>
+							<h4><a href="https://github.com/NicolasDebeurme/WordFinder">Word Finder</a></h4>
+							<p class="proj-desc">Application mobile de jeu de mots développée en Flutter.</p>
+							<iframe class="video" src="https://www.youtube.com/embed/Ry4CINCUK68" title="WordFinder" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+
+					</ul>
+				</article>
+
+				<!-- ── CONTACT ── -->
+				<article id="contact">
+					<h2 class="major">Contact</h2>
+					<ul>
+						<li>
+							<a href="mailto:nicolas.debeurme.27000@gmail.com"><h4>nicolas.debeurme.27000@gmail.com</h4></a>
+						</li>
+						<li>
+							<a href="tel:+33680513330"><h4>06.80.51.33.30</h4></a>
+						</li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://github.com/NicolasDebeurme" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/nicolas-debeurme-823b13196/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					</ul>
+				</article>
 
 			</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/NicolasDebeurme" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/nicolas-debeurme-823b13196/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				</ul>
+			</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</div>
+
+		<div id="bg"></div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
